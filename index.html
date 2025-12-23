@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio - Jasper Dunlap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Jasper Dunlap</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Photography Portfolio</h1>
+            <p>Capturing moments, creating memories</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Featured Work</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="landscape">Landscape</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="travel">Travel</button>
+            </div>
+
+            <div class="gallery">
+                <!-- Row 1 -->
+                <div class="gallery-item landscape" data-category="landscape">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=400&fit=crop" alt="Mountain landscape">
+                    <div class="overlay">
+                        <h3>Mountain Peaks</h3>
+                        <p>Landscape Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item portrait" data-category="portrait">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop" alt="Portrait">
+                    <div class="overlay">
+                        <h3>Golden Hour</h3>
+                        <p>Portrait Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&h=400&fit=crop" alt="Forest">
+                    <div class="overlay">
+                        <h3>Forest Dreams</h3>
+                        <p>Nature Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item travel" data-category="travel">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&h=400&fit=crop" alt="Travel">
+                    <div class="overlay">
+                        <h3>World Explorer</h3>
+                        <p>Travel Photography</p>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1434725039106-f3cab2f81064?w=500&h=400&fit=crop" alt="Wildlife">
+                    <div class="overlay">
+                        <h3>Wildlife Wonder</h3>
+                        <p>Nature Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item landscape" data-category="landscape">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=400&fit=crop" alt="Sunset">
+                    <div class="overlay">
+                        <h3>Sunset Bliss</h3>
+                        <p>Landscape Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item travel" data-category="travel">
+                    <img src="https://images.unsplash.com/photo-1504681869696-d977e3d33ca0?w=500&h=400&fit=crop" alt="City">
+                    <div class="overlay">
+                        <h3>Urban Nights</h3>
+                        <p>Travel Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item portrait" data-category="portrait">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&h=400&fit=crop" alt="Portrait 2">
+                    <div class="overlay">
+                        <h3>Moments Captured</h3>
+                        <p>Portrait Photography</p>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="gallery-item landscape" data-category="landscape">
+                    <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=500&h=400&fit=crop" alt="Ocean waves">
+                    <div class="overlay">
+                        <h3>Ocean Waves</h3>
+                        <p>Landscape Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item nature" data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&h=400&fit=crop" alt="Forest path">
+                    <div class="overlay">
+                        <h3>Path Through Nature</h3>
+                        <p>Nature Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item portrait" data-category="portrait">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop" alt="Portrait 3">
+                    <div class="overlay">
+                        <h3>Authentic Stories</h3>
+                        <p>Portrait Photography</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item travel" data-category="travel">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=400&fit=crop" alt="Adventure">
+                    <div class="overlay">
+                        <h3>Adventure Awaits</h3>
+                        <p>Travel Photography</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am Jasper Dunlap and I'm really cool because I have friends named Noah and Everett and we like to eat meat sticks!</p>
+                    <p>Photography is my passion, and I love capturing moments that matter. When I'm not behind the camera, you can find me hanging out with Noah and Everett, enjoying great food and even better company.</p>
+                    <div class="skills">
+                        <h3>Specialties</h3>
+                        <ul>
+                            <li>Landscape Photography</li>
+                            <li>Portrait Photography</li>
+                            <li>Travel Photography</li>
+                            <li>Event Photography</li>
+                            <li>Post-Processing & Editing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1502633256887-7dd01513f36f?w=400&h=400&fit=crop" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">Interested in working together? I'd love to hear from you!</p>
+            
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:hello@jasperdunlap.com">hello@jasperdunlap.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+1-555-123-4567">+1 (555) 123-4567</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Social Media</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-icon">Instagram</a>
+                            <a href="#" class="social-icon">Facebook</a>
+                            <a href="#" class="social-icon">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jasper Dunlap Photography. All rights reserved.</p>
+            <p>Made with passion | Capturing moments, creating memories</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
